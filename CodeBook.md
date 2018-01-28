@@ -85,3 +85,15 @@ For this project, I've performed the following transformation steps on the origi
 3. Uses descriptive activity names to name the activities in the data set
 4. Lable the data set with descriptive activity names.
 5. Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Steps on how to work with ```run_analysis.R```
+The following are the steps that you must follow prior to run run_analysis.R:
+
+1. Download the data source to your local drive.
+2. Put run_analysis.R in the parent folder. 
+3. Change the working directory on line 28.
+4. Run source("```run_analysis.R```"). 
+5. A new file "```tidydata.txt```" will be created in the working directory. 
+
+## Dependencies
+In order for ```run_analysis.R``` to run correctly, we'll need the libraries data.table and plyr. Both of them are installed at the beginning of the script. 
